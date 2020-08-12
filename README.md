@@ -10,7 +10,7 @@ You can view the tutorial at: http://www.multigesture.net/articles/how-to-write-
 
 Some other helpful links that I used in order to create this emulator are also in the CHIP.cpp file that I included, but for convenience, will also be provided here:
 
-/*
+/*  
 HELPFUL LINKS
 *https://en.wikipedia.org/wiki/CHIP-8#Virtual_machine_description  
 *http://www.multigesture.net/articles/how-to-write-an-emulator-chip-8-interpreter/  
