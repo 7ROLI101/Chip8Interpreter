@@ -29,3 +29,5 @@ for the CHIP8 system, but just a bit of background reading before I try to go fu
 */  
 
 SDL2.0 or SFML is a library that will make it easier for me to use OpenGL. I would also need it to track keyboard presses and implement sound if I need to later on.
+
+
