@@ -32,4 +32,8 @@ for the CHIP8 system, but just a bit of background reading before I try to go fu
 
 ![](Images/SpaceInvaders.png)  
 
-As of right now, the emulator is working to the point where it is playable. However, the emulator has problems with the display of sprites (the output is flickering, and in Space Invaders, you die no matter what you do).
+As of right now, the emulator is working to the point where it is playable. However, there are issues with the emulator due to timing (the delay and sound timers are supposed to decrement at a rate of 60 Hz, but for some reason, it seems to be decrementing much faster than that).  
+As of right now, my main priority is to:  
+1) Start using SDL to do the outputting of graphics, user input and sound.  
+2) Focus on the timing issues of the emulator (not to the point where it is cycle accurate, but I want the emulator to be playable at least for half of the ROMs that are currently out there).  
+3) Focus on updating the language I am using to modern C++ (this is not important, but is a part of me learning C++).
